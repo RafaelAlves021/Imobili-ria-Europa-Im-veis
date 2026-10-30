@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Europa Imobiliária | Imóveis de Alto Padrão em Realengo, Rio de Janeiro</title>
+    <meta name="description" content="Há 35 anos conectando pessoas aos seus sonhos. Encontre casas, apartamentos e terrenos em Realengo e região com quem entende do mercado imobiliário.">
+    
+    <!-- Google Fonts: Manrope & Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Manrope:wght@500;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-dark-custom text-light">
+
+    <!-- HEADER / NAVEGAÇÃO -->
+    <header id="navbar-main" class="fixed-top transition-all">
+        <nav class="navbar navbar-expand-lg navbar-dark py-3">
+            <div class="container">
+                <!-- Logotipo -->
+                <a class="navbar-brand fw-bold font-manrope d-flex align-items-center gap-2" href="#">
+                    <span class="brand-badge bg-primary-custom text-white rounded-2 px-2 py-1 fs-5">EI</span>
+                    <span class="fs-4 tracking-wider">EUROPA <small class="text-primary-custom fw-light">IMOBILIÁRIA</small></span>
+                </a>
+
+                <!-- Botão Hambúrguer Mobile -->
+                <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alternar navegação">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Links de Navegação -->
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav align-items-lg-center gap-lg-3 mb-3 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link active" href="#inicio">Início</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#comprar">Comprar</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#alugar">Alugar</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#vender">Vender meu imóvel</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#sobre">Sobre nós</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                    </ul>
+                    <div class="ms-lg-3">
+                        <a href="#busca-imoveis" class="btn btn-primary-custom px-4 py-2 rounded-pill fw-semibold shadow-red">
+                            Encontre seu imóvel
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="inicio" class="hero-section position-relative d-flex align-items-center min-vh-100 text-white">
+        <div class="hero-overlay position-absolute w-100 h-100 top-0 start-0"></div>
+        <div class="container position-relative z-2 py-5 mt-5">
+            <div class="row align-items-center">
+                <div class="col-lg-8 mx-auto text-center">
+                    <span class="badge bg-glass-red text-primary-custom border border-danger border-opacity-25 px-3 py-2 rounded-pill mb-3 fw-semibold">
+                        <i class="bi bi-award-fill me-1"></i> Tradição e Excelência Imobiliária
+                    </span>
+                    <h1 class="display-3 fw-bold font-manrope mb-4 text-white animate-up">
+                        Seu próximo capítulo começa com o imóvel certo.
+                    </h1>
+                    <p class="lead text-gray-300 mb-5 animate-up delay-1">
+                        Há 35 anos conectando pessoas aos seus sonhos. Encontre o imóvel ideal com quem entende do mercado imobiliário em Realengo e região.
+                    </p>
+                    <div class="d-flex flex-column flex-sm-row justify-content-center gap-3 mb-5 animate-up delay-2">
+                        <a href="#busca-imoveis" class="btn btn-primary-custom btn-lg px-5 py-3 rounded-pill fw-bold shadow-red">
+                            Encontrar meu imóvel
+                        </a>
+                        <a href="#vender" class="btn btn-outline-light btn-lg px-5 py-3 rounded-pill fw-bold glass-btn">
+                            Quero anunciar meu imóvel
+                        </a>
+                    </div>
+
+                    <!-- Indicadores de Credibilidade -->
+                    <div class="row g-4 pt-4 border-top border-secondary border-opacity-50 text-center animate-up delay-3">
+                        <div class="col-4">
+                            <h3 class="fw-bold font-manrope text-primary-custom mb-0 display-6">35+</h3>
+                            <p class="small text-gray-400 mb-0">Anos de experiência</p>
+                        </div>
+                        <div class="col-4 border-start border-end border-secondary border-opacity-50">
+                            <h3 class="fw-bold font-manrope text-primary-custom mb-0 display-6">89</h3>
+                            <p class="small text-gray-400 mb-0">Avaliações no Google</p>
+                        </div>
+                        <div class="col-4">
+                            <h3 class="fw-bold font-manrope text-primary-custom mb-0 display-6">100%</h3>
+                            <p class="small text-gray-400 mb-0">Atendimento especializado</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BUSCA DE IMÓVEIS -->
+    <section id="busca-imoveis" class="py-5 bg-darker-custom position-relative z-3 mt-n5">
+        <div class="container">
+            <div class="card glass-card border-secondary border-opacity-25 shadow-lg p-4 p-lg-5 rounded-4">
+                <div class="text-center mb-4">
+                    <h2 class="h3 font-manrope fw-bold text-white">Encontre o Imóvel Perfeito</h2>
+                    <p class="text-gray-400 small">Filtre rapidamente por suas preferências e fale diretamente com um consultor.</p>
+                </div>
+                <form id="formBusca" class="row g-3 align-items-end">
+                    <div class="col-md-3">
+                        <label class="form-label text-gray-300 small fw-semibold">Tipo de Negociação</label>
+                        <select id="tipoNegociacao" class="form-select bg-dark text-white border-secondary border-opacity-50 py-2">
+                            <option value="Comprar">Comprar</option>
+                            <option value="Alugar">Alugar</option>
+                        </select>
+                    </div>
+                    <div class="col-md-3">
+                        <label class="form-label text-gray-300 small fw-semibold">Tipo de Imóvel</label>
+                        <select id="tipoImovel" class="form-select bg-dark text-white border-secondary border-opacity-50 py-2">
+                            <option value="Casa">Casa</option>
+                            <option value="Apartamento">Apartamento</option>
+                            <option value="Terreno">Terreno</option>
+                            <option value="Comercial">Comercial</option>
+                        </select>
+                    </div>
+                    <div class="col-md-2">
+                        <label class="form-label text-gray-300 small fw-semibold">Quartos</label>
+                        <select id="qtdQuartos" class="form-select bg-dark text-white border-secondary border-opacity-50 py-2">
+                            <option value="Qualquer">Qualquer</option>
+                            <option value="1 Quarto">1 Quarto</option>
+                            <option value="2 Quartos">2 Quartos</option>
+                            <option value="3+ Quartos">3+ Quartos</option>
+                        </select>
+                    </div>
+                    <div class="col-md-2">
+                        <label class="form-label text-gray-300 small fw-semibold">Localização</label>
+                        <input type="text" id="localizacaoBusca" class="form-control bg-dark text-white border-secondary border-opacity-50 py-2" placeholder="Ex: Realengo">
+                    </div>
+                    <div class="col-md-2">
+                        <button type="submit" class="btn btn-primary-custom w-100 py-2 fw-bold shadow-red">
+                            <i class="bi bi-search me-1"></i> Buscar
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO DE IMÓVEIS EM DESTAQUE -->
+    <section id="comprar" class="py-5 bg-dark-custom">
+        <div class="container py-4">
+            <div class="row align-items-end mb-5">
+                <div class="col-lg-8">
+                    <span class="text-primary-custom fw-bold text-uppercase tracking-wider small">Oportunidades Selecionadas</span>
+                    <h2 class="display-5 fw-bold font-manrope text-white mt-1">Imóveis em Destaque</h2>
+                </div>
+                <div class="col-lg-4 text-lg-end mt-3 mt-lg-0">
+                    <a href="#contato" class="text-decoration-none text-white fw-semibold hover-red">
+                        Ver todas as oportunidades <i class="bi bi-arrow-right ms-1"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="row g-4">
+                <!-- Card 1 -->
+                <div class="col-md-4">
+                    <div class="card property-card bg-darker-custom border-secondary border-opacity-25 rounded-4 overflow-hidden h-100 shadow-sm">
+                        <div class="position-relative overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=800&q=80" class="card-img-top property-img" alt="Casa Residencial de Alto Padrão">
+                            <span class="badge bg-primary-custom position-absolute top-0 start-0 m-3 px-3 py-2 fw-semibold">Exclusivo</span>
+                            <span class="badge bg-dark bg-opacity-75 position-absolute bottom-0 end-0 m-3 px-2 py-1 small">Venda</span>
+                        </div>
+                        <div class="card-body p-4 d-flex flex-column">
+                            <h3 class="h5 fw-bold font-manrope text-white mb-1">Residencial Contemporâneo</h3>
+                            <p class="text-gray-400 small mb-3"><i class="bi bi-geo-alt-fill text-primary-custom me-1"></i> Realengo, Rio de Janeiro - RJ</p>
+                            
+                            <div class="row g-2 text-center text-gray-300 small py-2 border-top border-bottom border-secondary border-opacity-25 mb-3">
+                                <div class="col-3"><i class="bi bi-door-open d-block text-primary-custom"></i> 3 Qts</div>
+                                <div class="col-3"><i class="bi bi-water d-block text-primary-custom"></i> 2 Banh</div>
+                                <div class="col-3"><i class="bi bi-car-front d-block text-primary-custom"></i> 2 Vagas</div>
+                                <div class="col-3"><i class="bi bi-rulers d-block text-primary-custom"></i> 180m²</div>
+                            </div>
+                            
+                            <div class="d-flex align-items-center justify-content-between mt-auto pt-2">
+                                <div>
+                                    <span class="small text-gray-400 d-block">Valor</span>
+                                    <span class="h5 text-white fw-bold mb-0">Consulte</span>
+                                </div>
+                                <a href="#" onclick="interesseImovel('Residencial Contemporâneo - Realengo')" class="btn btn-outline-danger btn-sm px-3 rounded-pill fw-semibold hover-fill">
+                                    Tenho interesse
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="col-md-4">
+                    <div class="card property-card bg-darker-custom border-secondary border-opacity-25 rounded-4 overflow-hidden h-100 shadow-sm">
+                        <div class="position-relative overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=800&q=80" class="card-img-top property-img" alt="Apartamento Moderno">
+                            <span class="badge bg-primary-custom position-absolute top-0 start-0 m-3 px-3 py-2 fw-semibold">Destaque</span>
+                            <span class="badge bg-dark bg-opacity-75 position-absolute bottom-0 end-0 m-3 px-2 py-1 small">Locação</span>
+                        </div>
+                        <div class="card-body p-4 d-flex flex-column">
+                            <h3 class="h5 fw-bold font-manrope text-white mb-1">Apartamento Plaza Garden</h3>
+                            <p class="text-gray-400 small mb-3"><i class="bi bi-geo-alt-fill text-primary-custom me-1"></i> Realengo, Rio de Janeiro - RJ</p>
+                            
+                            <div class="row g-2 text-center text-gray-300 small py-2 border-top border-bottom border-secondary border-opacity-25 mb-3">
+                                <div class="col-3"><i class="bi bi-door-open d-block text-primary-custom"></i> 2 Qts</div>
+                                <div class="col-3"><i class="bi bi-water d-block text-primary-custom"></i> 1 Banh</div>
+                                <div class="col-3"><i class="bi bi-car-front d-block text-primary-custom"></i> 1 Vaga</div>
+                                <div class="col-3"><i class="bi bi-rulers d-block text-primary-custom"></i> 75m²</div>
+                            </div>
+                            
+                            <div class="d-flex align-items-center justify-content-between mt-auto pt-2">
+                                <div>
+                                    <span class="small text-gray-400 d-block">Valor mensal</span>
+                                    <span class="h5 text-white fw-bold mb-0">Consulte</span>
+                                </div>
+                                <a href="#" onclick="interesseImovel('Apartamento Plaza Garden - Realengo')" class="btn btn-outline-danger btn-sm px-3 rounded-pill fw-semibold hover-fill">
+                                    Tenho interesse
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="col-md-4">
+                    <div class="card property-card bg-darker-custom border-secondary border-opacity-25 rounded-4 overflow-hidden h-100 shadow-sm">
+                        <div class="position-relative overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=80" class="card-img-top property-img" alt="Casa de Luxo">
+                            <span class="badge bg-primary-custom position-absolute top-0 start-0 m-3 px-3 py-2 fw-semibold">Oportunidade</span>
+                            <span class="badge bg-dark bg-opacity-75 position-absolute bottom-0 end-0 m-3 px-2 py-1 small">Venda</span>
+                        </div>
+                        <div class="card-body p-4 d-flex flex-column">
+                            <h3 class="h5 fw-bold font-manrope text-white mb-1">Villa Europa Residencial</h3>
+                            <p class="text-gray-400 small mb-3"><i class="bi bi-geo-alt-fill text-primary-custom me-1"></i> Realengo, Rio de Janeiro - RJ</p>
+                            
+                            <div class="row g-2 text-center text-gray-300 small py-2 border-top border-bottom border-secondary border-opacity-25 mb-3">
+                                <div class="col-3"><i class="bi bi-door-open d-block text-primary-custom"></i> 4 Qts</div>
+                                <div class="col-3"><i class="bi bi-water d-block text-primary-custom"></i> 3 Banh</div>
+                                <div class="col-3"><i class="bi bi-car-front d-block text-primary-custom"></i> 3 Vagas</div>
+                                <div class="col-3"><i class="bi bi-rulers d-block text-primary-custom"></i> 250m²</div>
+                            </div>
+                            
+                            <div class="d-flex align-items-center justify-content-between mt-auto pt-2">
+                                <div>
+                                    <span class="small text-gray-400 d-block">Valor</span>
+                                    <span class="h5 text-white fw-bold mb-0">Consulte</span>
+                                </div>
+                                <a href="#" onclick="interesseImovel('Villa Europa Residencial - Realengo')" class="btn btn-outline-danger btn-sm px-3 rounded-pill fw-semibold hover-fill">
+                                    Tenho interesse
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOBRE A EUROPA IMOBILIÁRIA -->
+    <section id="sobre" class="py-5 bg-darker-custom">
+        <div class="container py-4">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-6">
+                    <div class="position-relative">
+                        <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1000&q=80" class="img-fluid rounded-4 shadow-lg border border-secondary border-opacity-25" alt="Europa Imobiliária Sede">
+                        <div class="position-absolute bottom-0 end-0 bg-primary-custom text-white p-4 rounded-4 m-3 shadow-lg d-none d-sm-block">
+                            <h3 class="display-5 fw-bold font-manrope mb-0">35</h3>
+                            <p class="small text-uppercase fw-semibold mb-0">Anos de Tradição</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <span class="text-primary-custom fw-bold text-uppercase tracking-wider small">Tradição & Confiança</span>
+                    <h2 class="display-5 fw-bold font-manrope text-white mt-1 mb-4">35 anos construindo histórias e realizando sonhos.</h2>
+                    <p class="text-gray-300 mb-4 lh-lg">
+                        Com 35 anos de experiência no mercado imobiliário, a Europa Imobiliária construiu uma trajetória baseada em confiança, integridade, profissionalismo e dedicação na Zona Oeste do Rio de Janeiro.
+                    </p>
+                    <p class="text-gray-300 mb-4 lh-lg">
+                        Ajudamos pessoas a encontrarem seu novo lar, investidores a identificarem oportunidades de alto retorno e proprietários a realizarem excelentes negócios com segurança jurídica.
+                    </p>
+                    <div class="row g-3 pt-2">
+                        <div class="col-sm-6">
+                            <div class="d-flex align-items-center gap-3">
+                                <div class="bg-glass-red p-3 rounded-3 text-primary-custom">
+                                    <i class="bi bi-shield-check fs-4"></i>
+                                </div>
+                                <h6 class="fw-bold mb-0 text-white">Segurança Jurídica</h6>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex align-items-center gap-3">
+                                <div class="bg-glass-red p-3 rounded-3 text-primary-custom">
+                                    <i class="bi bi-people fs-4"></i>
+                                </div>
+                                <h6 class="fw-bold mb-0 text-white">Atendimento Dedicado</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVIÇOS -->
+    <section id="servicos" class="py-5 bg-dark-custom">
+        <div class="container py-4">
+            <div class="text-center mx-auto mb-5" style="max-width: 700px;">
+                <span class="text-primary-custom fw-bold text-uppercase tracking-wider small">Nossas Soluções</span>
+                <h2 class="display-5 fw-bold font-manrope text-white mt-1">Como podemos ajudar você hoje?</h2>
+                <p class="text-gray-400">Soluções completas para quem deseja comprar, vender, alugar ou investir no mercado imobiliário.</p>
+            </div>
+
+            <div class="row g-4">
+                <!-- Card Serviço 1 -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card service-card bg-darker-custom border-secondary border-opacity-25 rounded-4 p-4 h-100 text-center">
+                        <div class="service-icon bg-glass-red text-primary-custom mx-auto mb-4 rounded-3 d-flex align-items-center justify-content-center" style="width: 70px; height: 70px;">
+                            <i class="bi bi-house-heart fs-2"></i>
+                        </div>
+                        <h3 class="h5 fw-bold font-manrope text-white mb-3">Compra de imóveis</h3>
+                        <p class="text-gray-400 small mb-4">Encontre o imóvel ideal para você e sua família com total assessoria em cada etapa.</p>
+                        <a href="https://wa.me/?text=Olá! Gostaria de saber mais sobre a Compra de imóveis." target="_blank" class="btn btn-outline-danger btn-sm rounded-pill w-100 mt-auto fw-semibold hover-fill">
+                            Falar no WhatsApp
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Card Serviço 2 -->
+                <div class="col-md-6 col-lg-3" id="alugar">
+                    <div class="card service-card bg-darker-custom border-secondary border-opacity-25 rounded-4 p-4 h-100 text-center">
+                        <div class="service-icon bg-glass-red text-primary-custom mx-auto mb-4 rounded-3 d-flex align-items-center justify-content-center" style="width: 70px; height: 70px;">
+                            <i class="bi bi-key fs-2"></i>
+                        </div>
+                        <h3 class="h5 fw-bold font-manrope text-white mb-3">Locação</h3>
+                        <p class="text-gray-400 small mb-4">Encontre oportunidades de aluguel ágil e seguro com atendimento especializado.</p>
+                        <a href="https://wa.me/?text=Olá! Gostaria de saber mais sobre Locação de imóveis." target="_blank" class="btn btn-outline-danger btn-sm rounded-pill w-100 mt-auto fw-semibold hover-fill">
+                            Falar no WhatsApp
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Card Serviço 3 -->
+                <div class="col-md-6 col-lg-3" id="vender">
+                    <div class="card service-card bg-darker-custom border-secondary border-opacity-25 rounded-4 p-4 h-100 text-center">
+                        <div class="service-icon bg-glass-red text-primary-custom mx-auto mb-4 rounded-3 d-flex align-items-center justify-content-center" style="width: 70px; height: 70px;">
+                            <i class="bi bi-tag fs-2"></i>
+                        </div>
+                        <h3 class="h5 fw-bold font-manrope text-white mb-3">Venda de imóveis</h3>
+                        <p class="text-gray-400 small mb-4">Conte com nossa experiência de 35 anos para negociar e vender seu imóvel rapidamente.</p>
+                        <a href="https://wa.me/?text=Olá! Gostaria de anunciar/vender meu imóvel com a Europa Imobiliária." target="_blank" class="btn btn-outline-danger btn-sm rounded-pill w-100 mt-auto fw-semibold hover-fill">
+                            Falar no WhatsApp
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Card Serviço 4 -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card service-card bg-darker-custom border-secondary border-opacity-25 rounded-4 p-4 h-100 text-center">
+                        <div class="service-icon bg-glass-red text-primary-custom mx-auto mb-4 rounded-3 d-flex align-items-center justify-content-center" style="width: 70px; height: 70px;">
+                            <i class="bi bi-graph-up-arrow fs-2"></i>
+                        </div>
+                        <h3 class="h5 fw-bold font-manrope text-white mb-3">Consultoria imobiliária</h3>
+                        <p class="text-gray-400 small mb-4">Receba orientação profissional para tomar decisões mais seguras no mercado imobiliário.</p>
+                        <a href="https://wa.me/?text=Olá! Gostaria de solicitar uma consultoria imobiliária." target="_blank" class="btn btn-outline-danger btn-sm rounded-pill w-100 mt-auto fw-semibold hover-fill">
+                            Falar no WhatsApp
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AVALIAÇÕES DOS CLIENTES -->
+    <section class="py-5 bg-darker-custom">
+        <div class="container py-4">
+            <div class="row align-items-center mb-5">
+                <div class="col-lg-8">
+                    <span class="text-primary-custom fw-bold text-uppercase tracking-wider small">Prova Social</span>
+                    <h2 class="display-5 fw-bold font-manrope text-white mt-1">A confiança de nossos clientes é nossa maior conquista.</h2>
+                </div>
+                <div class="col-lg-4 text-lg-end mt-3 mt-lg-0">
+                    <div class="bg-dark d-inline-block px-4 py-3 rounded-4 border border-secondary border-opacity-25">
+                        <span class="text-warning fs-5"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></span>
+                        <span class="text-white fw-bold ms-2">89 avaliações no Google</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row g-4">
+                <!-- Depoimento 1 -->
+                <div class="col-md-6">
+                    <div class="card bg-dark border-secondary border-opacity-25 p-4 rounded-4 h-100 shadow-sm">
+                        <div class="d-flex align-items-center text-warning mb-3">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                        </div>
+                        <p class="text-gray-200 fst-italic mb-4">"Aluguel independente do pagamento do locatário e atendentes muito atenciosas."</p>
+                        <div class="d-flex align-items-center gap-3 mt-auto">
+                            <div class="avatar-placeholder bg-primary-custom text-white fw-bold rounded-circle d-flex align-items-center justify-content-center" style="width: 45px; height: 45px;">
+                                C
+                    </div>
+                            <div>
+                                <h6 class="fw-bold mb-0 text-white">Cliente Verificado</h6>
+                                <small class="text-gray-400">Avaliação do Google</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Depoimento 2 -->
+                <div class="col-md-6">
+                    <div class="card bg-dark border-secondary border-opacity-25 p-4 rounded-4 h-100 shadow-sm">
+                        <div class="d-flex align-items-center text-warning mb-3">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                        </div>
+                        <p class="text-gray-200 fst-italic mb-4">"Ótimo atendimento e atenção aos clientes."</p>
+                        <div class="d-flex align-items-center gap-3 mt-auto">
+                            <div class="avatar-placeholder bg-primary-custom text-white fw-bold rounded-circle d-flex align-items-center justify-content-center" style="width: 45px; height: 45px;">
+                                A
+                            </div>
+                            <div>
+                                <h6 class="fw-bold mb-0 text-white">Cliente Verificado</h6>
+                                <small class="text-gray-400">Avaliação do Google</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-5">
+                <a href="https://www.google.com/search?q=Europa+Imobiliaria+Realengo" target="_blank" class="btn btn-outline-light px-4 py-2 rounded-pill fw-semibold">
+                    <i class="bi bi-google me-2"></i> Ver avaliações completas no Google
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CHAMADA PARA AÇÃO — CTA -->
+    <section class="py-5 bg-gradient-cta position-relative overflow-hidden text-white">
+        <div class="container py-5 text-center position-relative z-2">
+            <h2 class="display-4 fw-bold font-manrope mb-3">Está pronto para encontrar seu próximo imóvel?</h2>
+            <p class="lead text-gray-300 mb-5 mx-auto" style="max-width: 600px;">
+                Conte com 35 anos de experiência para transformar seus planos em realidade. Fale diretamente com nossos especialistas.
+            </p>
+            <div class="d-flex flex-column flex-sm-row justify-content-center gap-3">
+                <a href="https://wa.me/?text=Olá! Gostaria de falar com um especialista da Europa Imobiliária." target="_blank" class="btn btn-primary-custom btn-lg px-5 py-3 rounded-pill fw-bold shadow-red">
+                    <i class="bi bi-whatsapp me-2"></i> Falar com um especialista
+                </a>
+                <a href="#comprar" class="btn btn-outline-light btn-lg px-5 py-3 rounded-pill fw-bold glass-btn">
+                    Conhecer nossos imóveis
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- LOCALIZAÇÃO E CONTATO -->
+    <section id="contato" class="py-5 bg-dark-custom">
+        <div class="container py-4">
+            <div class="row g-5">
+                <div class="col-lg-6">
+                    <span class="text-primary-custom fw-bold text-uppercase tracking-wider small">Fale Conosco</span>
+                    <h2 class="display-5 fw-bold font-manrope text-white mt-1 mb-4">Visite nossa sede em Realengo</h2>
+                    
+                    <div class="d-flex align-items-start gap-3 mb-4">
+                        <div class="bg-glass-red p-3 rounded-3 text-primary-custom">
+                            <i class="bi bi-geo-alt fs-4"></i>
+                        </div>
+                        <div>
+                            <h6 class="fw-bold mb-1 text-white">Endereço</h6>
+                            <p class="text-gray-300 mb-0">Rua Piraquara, Lj A – Realengo, Rio de Janeiro – RJ, CEP 21755-271</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex align-items-start gap-3 mb-4">
+                        <div class="bg-glass-red p-3 rounded-3 text-primary-custom">
+                            <i class="bi bi-clock fs-4"></i>
+                        </div>
+                        <div>
+                            <h6 class="fw-bold mb-1 text-white">Horário de Atendimento</h6>
+                            <p class="text-gray-300 mb-0">Segunda a Sábado — Aberto até às 18h</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex align-items-start gap-3 mb-4">
+                        <div class="bg-glass-red p-3 rounded-3 text-primary-custom">
+                            <i class="bi bi-instagram fs-4"></i>
+                        </div>
+                        <div>
+                            <h6 class="fw-bold mb-1 text-white">Instagram</h6>
+                            <a href="https://instagram.com/europa_imobiliaria" target="_blank" class="text-decoration-none text-primary-custom fw-semibold">@europa_imobiliaria</a>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-wrap gap-3 pt-2">
+                        <a href="https://wa.me/?text=Olá! Vim através do site e gostaria de atendimento." target="_blank" class="btn btn-primary-custom px-4 py-3 rounded-pill fw-bold shadow-red">
+                            <i class="bi bi-whatsapp me-2"></i> Abrir WhatsApp
+                        </a>
+                        <a href="https://maps.google.com/?q=Rua+Piraquara,+Lj+A+Realengo+Rio+de+Janeiro" target="_blank" class="btn btn-outline-light px-4 py-3 rounded-pill fw-semibold">
+                            <i class="bi bi-map me-2"></i> Ver Rotas no Mapa
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="map-container rounded-4 overflow-hidden border border-secondary border-opacity-25 shadow-lg h-100" style="min-height: 400px;">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.2982!2d-43.4187!3d-22.8791!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9be6b5a3e1a1a1%3A0x1a1a1a1a1a1a1a1a!2sRua%20Piraquara%20-%20Realengo%2C%20Rio%20de%20Janeiro%20-%20RJ!5e0!3m2!1spt-BR!2sbr!4v1650000000000!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-darker-custom text-gray-400 py-5 border-top border-secondary border-opacity-25">
+        <div class="container py-4">
+            <div class="row g-4 justify-content-between mb-5">
+                <div class="col-lg-4">
+                    <a class="navbar-brand fw-bold font-manrope d-flex align-items-center gap-2 mb-3" href="#">
+                        <span class="brand-badge bg-primary-custom text-white rounded-2 px-2 py-1 fs-5">EI</span>
+                        <span class="fs-4 text-white tracking-wider">EUROPA <small class="text-primary-custom fw-light">IMOBILIÁRIA</small></span>
+                    </a>
+                    <p class="small text-gray-400 mb-3">
+                        Há 35 anos transformando planos em realidade e conectando famílias aos melhores imóveis em Realengo e Zona Oeste do Rio de Janeiro.
+                    </p>
+                    <div class="d-flex gap-3">
+                        <a href="https://instagram.com/europa_imobiliaria" target="_blank" class="text-white bg-dark p-2 rounded-circle border border-secondary border-opacity-25 hover-red"><i class="bi bi-instagram"></i></a>
+                        <a href="https://wa.me/" target="_blank" class="text-white bg-dark p-2 rounded-circle border border-secondary border-opacity-25 hover-red"><i class="bi bi-whatsapp"></i></a>
+                        <a href="https://www.google.com/search?q=Europa+Imobiliaria+Realengo" target="_blank" class="text-white bg-dark p-2 rounded-circle border border-secondary border-opacity-25 hover-red"><i class="bi bi-google"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-6 col-lg-2">
+                    <h5 class="text-white fw-bold font-manrope h6 mb-3">Navegação</h5>
+                    <ul class="list-unstyled small d-flex flex-column gap-2">
+                        <li><a href="#inicio" class="text-gray-400 text-decoration-none hover-white">Início</a></li>
+                        <li><a href="#comprar" class="text-gray-400 text-decoration-none hover-white">Comprar</a></li>
+                        <li><a href="#alugar" class="text-gray-400 text-decoration-none hover-white">Alugar</a></li>
+                        <li><a href="#sobre" class="text-gray-400 text-decoration-none hover-white">Sobre nós</a></li>
+                        <li><a href="#contato" class="text-gray-400 text-decoration-none hover-white">Contato</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-lg-2">
+                    <h5 class="text-white fw-bold font-manrope h6 mb-3">Serviços</h5>
+                    <ul class="list-unstyled small d-flex flex-column gap-2">
+                        <li><a href="#servicos" class="text-gray-400 text-decoration-none hover-white">Compra de Imóveis</a></li>
+                        <li><a href="#servicos" class="text-gray-400 text-decoration-none hover-white">Locação Segura</a></li>
+                        <li><a href="#servicos" class="text-gray-400 text-decoration-none hover-white">Venda de Imóveis</a></li>
+                        <li><a href="#servicos" class="text-gray-400 text-decoration-none hover-white">Consultoria</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-4">
+                    <h5 class="text-white fw-bold font-manrope h6 mb-3">Localização</h5>
+                    <p class="small text-gray-400 mb-2"><i class="bi bi-geo-alt-fill text-primary-custom me-1"></i> Rua Piraquara, Lj A – Realengo, Rio de Janeiro – RJ</p>
+                    <p class="small text-gray-400 mb-0"><i class="bi bi-clock-fill text-primary-custom me-1"></i> Segunda a Sábado até às 18h</p>
+                </div>
+            </div>
+
+            <div class="row pt-4 border-top border-secondary border-opacity-25 text-center text-md-start align-items-center">
+                <div class="col-md-6 small text-gray-500 mb-3 mb-md-0">
+                    &copy; 2026 Europa Imobiliária. Todos os direitos reservados.
+                </div>
+                <div class="col-md-6 text-md-end small text-gray-500">
+                    Desenvolvido com excelência tecnológica.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- BOTÃO FLUTUANTE WHATSAPP -->
+    <a href="https://wa.me/?text=Olá! Vim através do site da Europa Imobiliária e gostaria de atendimento." target="_blank" class="whatsapp-float position-fixed bottom-0 end-0 m-4 bg-success text-white rounded-circle shadow-lg d-flex align-items-center justify-content-center z-5 text-decoration-none fs-2 animate-bounce" aria-label="Fale conosco no WhatsApp" style="width: 60px; height: 60px;">
+        <i class="bi bi-whatsapp"></i>
+    </a>
+
+    <!-- BOTÃO VOLTAR AO TOPO -->
+    <button id="backToTop" class="btn btn-primary-custom position-fixed bottom-0 start-0 m-4 rounded-circle shadow-lg z-5 d-none align-items-center justify-content-center" aria-label="Voltar ao topo" style="width: 45px; height: 45px;">
+        <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
